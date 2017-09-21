@@ -1,0 +1,115 @@
+*{ margin: 0px; padding: 0px; }
+.clear{ clear: both; }
+#wrapper{ height: 3885px; width: 1920px;}
+
+/* header */
+
+header{ height: 646px; width: 1920px; background-image: url(images/slider.png); position: relative;}
+#logo{ margin-left: 386px; margin-top: 5px; height: 54px; width: 143px; }
+#menu>ul>li{ color: yellow; list-style:none; float: left;  }
+#menu{ float: right; margin-right: 320px; }
+#menu>ul>li>a{ padding-top: 30px; text-decoration:none; color: yellow; margin-right: 30px; margin-top: 50px; }
+#menu>ul{ margin-top: 20px; }
+#menu>ul>li>img{ padding-left: 20px; }
+.icon{ cursor: pointer; }
+#previous{ position: absolute; top: 330px; left: 35px; }
+#next{ position: absolute; top: 330px; right: 35px; }
+#text{ text-align: center; color: yellow ; font-size: 300%; margin-top: 210px; }
+#xemchitiet{ height: 40px; width: 150px; margin-top: 15px; margin-left: 880px; }
+
+/* main content */
+#about{ height: 265px; width: 1920px; }
+#about_title{ text-align: center; font-size: 200%; padding-top: 40px; }
+#about_main{ text-align: center; font-size: 110%;}
+#xemthem{ text-align: center; text-decoration: underline; }
+
+#study_method{ background-image: url(images/study_method.png); height: 320px; width: 1920px; position: relative; color: #fff; }
+.a{ float: left; padding-left: 90px; padding-top: 30px; }
+#list_method>ul>li{ list-style: none; }
+#list_method{ height: 155px; width: 1155px; margin: auto;}
+.b{ float: right; padding-top: 10px; padding-left:5px; color: #fff}
+#study_method_title{ font-size: 200%; text-align: center; padding-top: 30px; }
+.fa{ position: absolute; margin-top: -45px; margin-left: 15px; }
+
+
+.new{ height: 540px; width: 1920px; position: relative; }
+#img_new{ height: 400px; width: 1290px; margin:auto; margin-left: 410px; }
+#list_new_img{ height: 540px; width: 600px; float: left; }
+#list_new_img>ul>li{ list-style: none; }
+#big_new_img{ float: left; width: 610px; }
+.list_new_small{ float: left; height: 178px; width: 240px; margin-left: 20px; }
+#new_title{ font-size: 200%; text-align: center; padding-top: 30px; }
+#new_readmore{ position: absolute; left: 925px; padding-top: 370px; text-decoration: underline;}
+
+
+#video{ height: 375px; width: 1920px; position: relative; background-color: #0e2534;  }
+#list_video>ul>li{ list-style: none; float: left; }
+#list_video{ width: 1200px; height: 210px; left: 380px; padding-top: 100px; position: absolute;}
+.video_detail{ height: 210px; width: 262px; margin-left: 30px; }
+#title_video{     font-size: 200%;
+    padding-top: 30px;
+    position: absolute;
+    right: 925px;
+    color: #fff;
+}
+#video_previous{ position: absolute; cursor: pointer; top: 150px; left: 330px;  }
+#video_next{ position: absolute;cursor: pointer; top: 150px; right: 310px; }
+.video_play{ position: absolute; margin-top: -100px; padding-left: 95px; }
+.img_video{  position: relative; }
+#view_video{ position: absolute; left: 925px; padding-top: 330px; text-decoration: underline; color: #fff }
+.text_video{ color: white; padding-top: 10px; }
+
+
+#course{ height: 850px; width: 1920px; position: relative; }
+#list_course{  margin-left: 670px; padding-top: 60px; }
+#list_course>ul>li{ list-style: none; margin-top: 10px; }
+.detail_course{ height: 160px; width: 640px; }
+.text_course{ float: right; width: 265px; }
+.img_course{ float: left; }
+.text_course_2{ float: left; width: 265px; }
+.img_course_2{ float: right; }
+#title_course{ text-align: center; font-size: 200%; padding-top:20px; }
+.pr_course{ margin-top: 10px; }
+.pr_course_2{ margin-top: 10px; float: left; }
+#two, #four { float: right; }
+#border{ position: absolute; top: 142px; left: 990px; }
+.odd{ float: left; padding-top: 10px; }
+.even{ float: right; padding-top: 10px;}
+button{ height: 34px; width: 113px; }
+.odd_detail{ position: absolute; top: 445px; left: 860px;}
+#circle>li{ list-style-type: none; margin-top: 142px;} #circle{  position: absolute; top: 0px; left: 978px;}#one{background: #00aeef}
+#triangle{ position: absolute; top: 820px; left: 947px;    z-index: 2; }
+
+#student{ height: 500px; width: 1920px; background-image: url(images/anh.png); position: relative;}
+#main_feedback{ height: 500px; width: 1140px; margin-left: 425px; }
+#info_student{ position: relative; }
+#img_student{ text-align: center; padding-top: 19px; }
+#small_previous{ position: absolute; left: 38px; top: 48px; }
+#small_next{ position: absolute; right: 28px; top: 48px; }
+#text_student{ width: 500px; margin: auto; }
+.student_text{ text-align: center; }
+.feel_title{ font-size: 200%; text-align: center; padding-top: 25px; }
+#fell_sdt{ width: 48%; float: left; }
+#fell_email{ width: 48%; float: right;}
+#fell_class{width: 48%; float: left;}
+#fell_cel{width: 48%; float: right;}
+#fell_sdt, #fell_email{ margin-top: 25px; padding: 20px; }
+#fell_class,#fell_cel{ padding: 10px; margin-top: 25px; height: 40px;  }
+#fell_name{ padding: 20px; }
+#comment{ position: absolute; top: 285px; width: 553px; }
+#btn_register{border:1px white solid; margin-top: 310px; cursor: pointer; margin-left: 210px; padding:10px; width:146px; height: 40px; -webkit-border-radius:40px; -moz-border-radius:40px; border-radius:20px; }
+#text_btn_register{ text-align: center; color: white; }
+#register{ float: right; height: 500px; width: 555px;}
+#list_feel{height: 242px; width: 100%; background-color: white;}
+#feel{float: left; height: 500px; width: 550px;}
+
+
+#footer{ width: 1140px; height: 450px; margin-left: 425px; }
+#info_footer{ height: 100%; width: 552px; float: left;}
+#map{ height: 100%; width: 556px; float: right;}
+#text_footer{ width: 243px; height: 300px; padding-top: 150px; margin: auto; }
+#title, #address, #phone,#email, #info{ text-align: center; }
+#title{ font-size: 180%; }
+#address{ padding-top: 20px; }
+#info{ padding-top: 69px; }
+#img_googlemap{ padding-top: 60px; }
